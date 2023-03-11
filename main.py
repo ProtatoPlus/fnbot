@@ -10,7 +10,7 @@ import os
 
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix='fn!', intents=intents)
-openai.api_key = "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"
+openai.api_key = "openaihere(oldonenotwork)"
 FFMPEG_OPTIONS = {'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5','options': '-vn'}
     
 
