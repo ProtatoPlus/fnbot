@@ -43,6 +43,7 @@ async def getskin(ctx, arg):
     resp = res['data']
     raritycolor = 0xffffff
     price = ""
+    #yeah this code is absolutely shit but in my defense it was 4am when i wrote it
     for x in resp:
         typebase = x['type']
         type1 = typebase['value']
